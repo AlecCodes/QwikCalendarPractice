@@ -1,8 +1,21 @@
 /* THIS FILE IS JUST FOR EXAMPLES, DELETE IT IF YOU DON'T NEED IT */
 
+
+.calendarContainer{
+
+}
+
+.day{
+  display: flex;
+  height: 100px
+}
+
 .event {
-  
   background-color: aqua;
+}
+
+.eventDescription{
+  border: solid;
 }
 
 /* SHELL ---------------------------------------- */
