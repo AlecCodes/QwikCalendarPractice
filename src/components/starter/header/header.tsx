@@ -14,9 +14,9 @@ export default component$(() => {
         <ul>
           <li>
             <a
-              href = "/joke"
+              href = "/Calendar"
             >
-              Joke
+              Calendar
             </a>
           </li>
           <li>
