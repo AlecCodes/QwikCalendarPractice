@@ -41,6 +41,45 @@ export default component$(() => {
                         </div>
                 </div>
 
+                <div class='day'>        
+                        <div class = 'date'>Mon 26th</div>
+                        <div class = 'eventContainer'>
+                            <div class = 'event'>
+                                <div class = 'eventDescription'>Gym<span>8AM</span></div>
+                            </div>
+                            <div class = 'event'>
+                                <span class = 'eventDescription'>Nap</span>
+                            </div>
+                        </div>
+                </div>
+
+                <div class='day'>        
+                        <div class = 'date'>Tue 26th</div>
+                        <div class = 'eventContainer'>
+                            <div class = 'event'>
+                                <div class = 'eventDescription'>Call<span>11AM</span></div>
+                            </div>
+                            <div class = 'event'>
+                                <span class = 'eventDescription'>Gym</span>
+                            </div>
+                        </div>
+                </div>
+
+                <div class='day'>        
+                        <div class = 'date'>Fri 30th</div>
+                        <div class = 'eventContainer'>
+                            <div class = 'event'>
+                                <div class = 'eventDescription'>Run<span>11AM</span></div>
+                            </div>
+                            <div class = 'event'>
+                                <span class = 'eventDescription'>Gym</span>
+                            </div>
+                            <div class = 'event'>
+                                <span class ='eventDescription'>homeowkr</span>
+                            </div>
+                        </div>
+                </div>
+
             </div>
         </div>
     </>

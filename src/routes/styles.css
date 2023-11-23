@@ -34,7 +34,6 @@
 .eventContainer{
   padding-left: 10%;
   width: 100%;
-  background-color: gray;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -44,6 +43,9 @@
   background-color: aqua;
   width: 100%;
   border: solid;
+  padding: 3%;
+  color: black;
+  border-color: black;
   /* Include the padding in width */
   box-sizing: border-box;
 }
