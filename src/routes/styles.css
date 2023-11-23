@@ -9,9 +9,10 @@
 
 .calendar{
   display: flex;
+  border: solid;
   flex-direction: column;
   align-items: stretch;
-  width: 44vw;
+  width: 60vw;
 }
 
 .day{
@@ -23,6 +24,8 @@
 
 .date{
   align-self: flex-start;
+  width: 20%;
+  padding-right: 5%;
 }
 
 .eventContainer{
@@ -35,11 +38,12 @@
 
 .event {
   background-color: aqua;
-  width: 50%;
+  width: 100%;
   border: solid;
 }
 
 .eventDescription{
+  word-wrap: break-word;
 }
 
 /* SHELL ---------------------------------------- */

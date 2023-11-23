@@ -7,7 +7,7 @@ export default component$(() => {
         <section class = 'section bright'> Event Calendar!</section>
         <br></br>
             <div class = 'calendar'>
-                
+
                 <div class = 'day'>
                     <div class = 'date'>Wed 22nd</div>
                     <div class ='eventContainer'>
@@ -18,10 +18,10 @@ export default component$(() => {
                 </div>
 
                 <div class='day'>        
-                        <div class = 'date'>Wed 23rd</div>
+                        <div class = 'date'>Thurs 23rd</div>
                         <div class = 'eventContainer'>
                             <div class = 'event'>
-                                <span class = 'eventDescription'>Thanksgiving</span>
+                                <span class = 'eventDescription'>Thanksgivinggggg</span>
                             </div>
                             <div class = 'event'>
                                 <span class = 'eventDescription'>Nap</span>
