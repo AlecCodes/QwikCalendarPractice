@@ -2,20 +2,44 @@
 
 
 .calendarContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.calendar{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 44vw;
 }
 
 .day{
   display: flex;
-  height: 100px
+  height: 100%;
+  width: 700 px;
+  padding: 4%;
+}
+
+.date{
+  align-self: flex-start;
+}
+
+.eventContainer{
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .event {
   background-color: aqua;
+  width: 50%;
+  border: solid;
 }
 
 .eventDescription{
-  border: solid;
 }
 
 /* SHELL ---------------------------------------- */
