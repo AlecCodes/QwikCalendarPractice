@@ -1,4 +1,25 @@
 import { component$ } from "@builder.io/qwik";
+import { routeLoader$ } from "@builder.io/qwik-city";
+import { fetchOneEntry, Content } from "@builder.io/sdk-qwik";
+
+//put here or in the root.tsx or in the 'router'tsx?
+//must I use the useBuilderContent() hook?
+// SHOULD THE CALENDAR BE A seperate COMPONENT from Calendar.tsx?
+export const BUILDER_PUBLIC_API_= "54f45988ca8c43a1802285452264bbc1"
+export const BUILDER_MODEL = "page";
+
+
+export const useBuilderContent = routeLoader$(async ({ url, error }) => {
+    // Fetch content for the specified model using the API key.
+    const builderContent = await fetchOneEntry({
+      model: BUILDER_MODEL,
+      apiKey: BUILDER_PUBLIC_API_KEY,
+    });
+  
+    // Return the fetched content.
+    return builderContent;
+  });
+  
 
 export default component$(() => {
     return (
